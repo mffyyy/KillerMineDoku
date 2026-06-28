@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e25ad9dd6a04ceab5bd38a37d3b33c8, type: 3}
+  m_Name: KillerMineDokuTheme
+  m_EditorClassIdentifier: 
+  primaryYellow: {r: 0.99215686, g: 0.78431374, b: 0, a: 1}
+  secondaryPurple: {r: 0.2627451, g: 0.1764706, b: 0.84313726, a: 1}
+  successGreen: {r: 0.08627451, g: 0.6392157, b: 0.2901961, a: 1}
+  warningOrange: {r: 0.8509804, g: 0.46666667, b: 0.023529412, a: 1}
+  dangerRed: {r: 0.8627451, g: 0.14901961, b: 0.14901961, a: 1}
+  surface: {r: 0.9843137, g: 0.9843137, b: 0.9764706, a: 1}
+  paper: {r: 1, g: 0.972549, b: 0.8745098, a: 1}
+  panel: {r: 1, g: 0.99215686, b: 0.9529412, a: 1}
+  ink: {r: 0.10980392, g: 0.16078432, b: 0.23529412, a: 1}
+  muted: {r: 0.3647059, g: 0.4, b: 0.45882353, a: 1}
+  softLine: {r: 0.8509804, g: 0.8156863, b: 0.7176471, a: 1}
+  bodyFont: {fileID: 11400000, guid: 05c3f5d0e65424643870d68fdfd6048b, type: 2}
+  monoFont: {fileID: 11400000, guid: 05c3f5d0e65424643870d68fdfd6048b, type: 2}
+  radiusSmall: 4
+  radiusMedium: 8
+  borderThin: 2
+  borderNormal: 3
+  borderHeavy: 6
+  cageDefaultLine: 3
+  cageActiveLine: 4
+  shadowSmall: {x: 4, y: -4}
+  shadowDefault: {x: 6, y: -6}
+  shadowBoard: {x: 10, y: -10}
+  shadowPressed: {x: 1, y: -1}
+  hoverDuration: 0.16
+  pressDuration: 0.16
+  hoverOffset: {x: -1, y: 1}
+  pressOffset: {x: 3, y: -3}
+  cagePalette:
+  - {r: 0.08627451, g: 0.6392157, b: 0.2901961, a: 1}
+  - {r: 0.2627451, g: 0.1764706, b: 0.84313726, a: 1}
+  - {r: 0.8627451, g: 0.14901961, b: 0.14901961, a: 1}
+  - {r: 0.9764706, g: 0.4509804, b: 0.08627451, a: 1}
+  - {r: 0.023529412, g: 0.7137255, b: 0.83137256, a: 1}
+  - {r: 0.14509805, g: 0.3882353, b: 0.92156863, a: 1}
+  - {r: 0.4862745, g: 0.22745098, b: 0.92941177, a: 1}
+  - {r: 0.8509804, g: 0.46666667, b: 0.023529412, a: 1}
+  - {r: 0.03137255, g: 0.5686275, b: 0.69803923, a: 1}
+  - {r: 0.95686275, g: 0.24705882, b: 0.36862746, a: 1}
+  - {r: 0.8509804, g: 0.827451, b: 0.78431374, a: 1}
+  mineIcon: {fileID: 21300000, guid: efa6cb53558829b45bdec54ffcd69a5f, type: 3}
+  safeIcon: {fileID: 21300000, guid: ff3f7de6fa3027247ab332ea9763c73a, type: 3}
+  flagIcon: {fileID: 21300000, guid: 736cb49e2ff8ce94389efb540d6e5b82, type: 3}
+  verifiedIcon: {fileID: 21300000, guid: d85cf573cb0a9714ca991d07d416b88d, type: 3}
+  trashIcon: {fileID: 21300000, guid: c4cd2c4d1f795a844a440fe0a66e8e13, type: 3}
+  lockIcon: {fileID: 21300000, guid: e9fad39a7b453a4429343ef67b5d5aea, type: 3}
+  completeIcon: {fileID: 21300000, guid: d6a9190abd2823a4c9258d4747190f65, type: 3}
+  backIcon: {fileID: 21300000, guid: cd34c239f5963ba41a350505f391bd2a, type: 3}
+  editIcon: {fileID: 21300000, guid: 0898819604e32c143a0579e2c3201f75, type: 3}
+  clearIcon: {fileID: 21300000, guid: 7359252ca45aa464cb90b19cfa94a7d4, type: 3}
+  gridIcon: {fileID: 21300000, guid: a79e0136a88a8e647b52a7929360a295, type: 3}
+  exitIcon: {fileID: 21300000, guid: a33f8a390e0e4db469f4885357960d2e, type: 3}
+  plusIcon: {fileID: 21300000, guid: 20b9abb0063997641853d007cb2737b5, type: 3}
+  playIcon: {fileID: 21300000, guid: 78e3f4bad4fcfae40b1948ec8c4ff832, type: 3}
+  clockIcon: {fileID: 21300000, guid: 672c424e08ccfd64fa995ca19c36a8e8, type: 3}
+  lightbulbIcon: {fileID: 21300000, guid: 90e68c1161c0b8f41b17b27c3040ed9d, type: 3}
+  buttonWhite: {fileID: 21300000, guid: 125558b78426acb448a1fcbf6b568b3c, type: 3}
+  buttonPrimary: {fileID: 21300000, guid: 89d88a0cf68034845883f5a813eadda6, type: 3}
+  buttonSecondary: {fileID: 21300000, guid: 14369b5842921fb4cbaf6eb8eab87fef, type: 3}
+  buttonDanger: {fileID: 21300000, guid: 209a4bdbd3b67ea49829fc17dd1af990, type: 3}
+  cardPanel: {fileID: 21300000, guid: 05d555adc00340d4e913b7495fa78ddf, type: 3}
+  cardPaper: {fileID: 21300000, guid: 19e0dea3bb19326459d0b505b2c97b35, type: 3}
+  cardWhite: {fileID: 21300000, guid: ae1c1a4f47e4de04295722888c45f620, type: 3}
+  boardPanel: {fileID: 21300000, guid: 9364ee08d75c7bd49b17bb5a34ae58d7, type: 3}
+  boardCell: {fileID: 21300000, guid: b3a76d959c20ba849bb2d1db98a5dbd4, type: 3}
+  selectionOverlay: {fileID: 21300000, guid: 8a457647ce98bfb4ebb09a1d42c395d1, type: 3}
+  solutionPreviewOverlay: {fileID: 21300000, guid: 4dd7fc7ad0e636540a81a3db097c779a, type: 3}
+  paperDotBackground: {fileID: 21300000, guid: 4fab110763d305c4c9eec0005dd68282, type: 3}

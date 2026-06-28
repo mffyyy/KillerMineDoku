@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d0e6962be5d6f4ca0d16b43c109897, type: 3}
+  m_Name: KillerMineDokuLevelCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::KillerMineDoku.UI.KillerMineDokuLevelCatalog
+  presetLevels:
+  - levelNumber: 1
+    title: "\u5173\u5361 01"
+    puzzleJson: {fileID: 4900000, guid: f8716f9ec2660a343aeff9e3cd0d6e8b, type: 3}
+  - levelNumber: 2
+    title: "\u5173\u5361 02"
+    puzzleJson: {fileID: 4900000, guid: d2cfd1356317f6142ba1a3fd9accf32e, type: 3}
+  - levelNumber: 3
+    title: "\u5173\u5361 03"
+    puzzleJson: {fileID: 4900000, guid: 87f139acb70faa249954205da88d64cf, type: 3}
+  - levelNumber: 4
+    title: "\u5173\u5361 04"
+    puzzleJson: {fileID: 4900000, guid: 06961ec66b7e069408356b72df88fd22, type: 3}
+  - levelNumber: 5
+    title: "\u5173\u5361 05"
+    puzzleJson: {fileID: 4900000, guid: 11eedbf6f0cf0aa4d996acb14b64f7d5, type: 3}
+  - levelNumber: 6
+    title: "\u5173\u5361 06"
+    puzzleJson: {fileID: 4900000, guid: 737f1910c595a1b439ec64e7e364dd78, type: 3}

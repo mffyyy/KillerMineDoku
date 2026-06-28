@@ -1,0 +1,41 @@
+fileFormatVersion: 2
+guid: 4e25ad9dd6a04ceab5bd38a37d3b33c8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bodyFont: {instanceID: 0}
+  - monoFont: {instanceID: 0}
+  - mineIcon: {instanceID: 0}
+  - safeIcon: {instanceID: 0}
+  - flagIcon: {instanceID: 0}
+  - verifiedIcon: {instanceID: 0}
+  - trashIcon: {instanceID: 0}
+  - lockIcon: {instanceID: 0}
+  - completeIcon: {instanceID: 0}
+  - backIcon: {instanceID: 0}
+  - editIcon: {instanceID: 0}
+  - clearIcon: {instanceID: 0}
+  - gridIcon: {instanceID: 0}
+  - exitIcon: {instanceID: 0}
+  - plusIcon: {instanceID: 0}
+  - playIcon: {instanceID: 0}
+  - clockIcon: {instanceID: 0}
+  - lightbulbIcon: {instanceID: 0}
+  - buttonWhite: {instanceID: 0}
+  - buttonPrimary: {instanceID: 0}
+  - buttonSecondary: {instanceID: 0}
+  - buttonDanger: {instanceID: 0}
+  - cardPanel: {instanceID: 0}
+  - cardPaper: {instanceID: 0}
+  - cardWhite: {instanceID: 0}
+  - boardPanel: {instanceID: 0}
+  - boardCell: {instanceID: 0}
+  - selectionOverlay: {instanceID: 0}
+  - solutionPreviewOverlay: {instanceID: 0}
+  - paperDotBackground: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
