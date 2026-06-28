@@ -10,6 +10,7 @@ namespace KillerMineDoku.UI
         public TMP_Text totalMineText;
         public TMP_Text markedMineText;
         public TMP_Text remainingMineText;
+        public TMP_Text levelValueText;
 
         public void BindDefaults()
         {
@@ -17,6 +18,7 @@ namespace KillerMineDoku.UI
             totalMineText = totalMineText != null ? totalMineText : FindText("TotalMineCard/value");
             markedMineText = markedMineText != null ? markedMineText : FindText("MarkedMineCard /value");
             remainingMineText = remainingMineText != null ? remainingMineText : FindText("RemainCard/value");
+            levelValueText = levelValueText != null ? levelValueText : FindText("LevelTitleCard/LevelValue");
         }
 
         public void SetTime(float seconds)
@@ -31,6 +33,12 @@ namespace KillerMineDoku.UI
             if (totalMineText != null) totalMineText.text = total.ToString();
             if (markedMineText != null) markedMineText.text = marked.ToString();
             if (remainingMineText != null) remainingMineText.text = remaining.ToString();
+        }
+
+        public void SetLevelNumber(int levelNumber, bool isCustomLevel)
+        {
+            if (levelValueText == null) return;
+            levelValueText.text = isCustomLevel || levelNumber <= 0 ? "--" : levelNumber.ToString("00");
         }
 
         private TMP_Text FindText(string path)

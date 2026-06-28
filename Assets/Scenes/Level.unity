@@ -9847,7 +9847,7 @@ GameObject:
   - component: {fileID: 1788722681}
   - component: {fileID: 1788722680}
   m_Layer: 0
-  m_Name: value
+  m_Name: LevelValue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9869,7 +9869,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 64.900024, y: -15.999983}
+  m_AnchoredPosition: {x: 60.329, y: -15.999983}
   m_SizeDelta: {x: 108.2216, y: 79.9984}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1788722680

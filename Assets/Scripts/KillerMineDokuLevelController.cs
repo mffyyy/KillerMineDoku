@@ -46,6 +46,7 @@ namespace KillerMineDoku.UI
             boardRuntime.MarksChanged += RefreshHud;
             actionPanel.Initialize(this);
             hudView.BindDefaults();
+            hudView.SetLevelNumber(GetCurrentLevelNumber(), customSlotIndex >= 0);
             elapsedSeconds = 0f;
             if (resume != null)
             {
@@ -90,6 +91,17 @@ namespace KillerMineDoku.UI
         private void RefreshHud()
         {
             hudView.SetMineCounts(boardRuntime.TotalMines, boardRuntime.MineMarks, boardRuntime.RemainingMines);
+        }
+
+        private int GetCurrentLevelNumber()
+        {
+            if (customSlotIndex >= 0)
+            {
+                return 0;
+            }
+
+            var entry = catalog != null ? catalog.FindByPuzzle(boardBuilder.puzzleJson) : null;
+            return entry != null ? entry.levelNumber : KillerMineDokuLevelFlow.PendingLevelNumber;
         }
 
         private void BindDefaults()
